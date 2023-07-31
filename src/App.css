@@ -1,0 +1,112 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+body {
+  margin: 0;
+  padding: 0;
+}
+.all-container{
+  width: 100vw;
+}
+.notice-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.toggle-button-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  height: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none; /* 移除边框 */
+  border-radius: 20px; /* 大圆角 */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #f5f5f5; /* 初始背景色 */
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+button.active {
+  background-color: aliceblue; /* 天蓝色高亮 */
+}
+
+.overview-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+}
+
+.echart-container {
+  margin: 10px 10px;
+  width: 27vw;
+  height: 40vh;
+  border: solid;
+  border-color: #f7f7f7; /* 添加较大的圆角 */
+  border-radius: 20px; /* 添加较大的圆角 */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+/* .echart-container-1{
+  margin: 10px 10px;
+  width: 30vw;
+  height: 40vh;
+  border: solid;
+  border-color: lightgrey;
+} */
+.echart-container-2 {
+  margin: 10px 10px;
+  width: 40vw;
+  height: 40vh;
+  border: solid;
+  border-color: #f7f7f7;
+  border-radius: 20px; /* 添加较大的圆角 */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 4189823 */
+  src: url('//at.alicdn.com/t/c/font_4189823_zb41638tj4a.woff2?t=1690750449786') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4189823_zb41638tj4a.woff?t=1690750449786') format('woff'),
+       url('//at.alicdn.com/t/c/font_4189823_zb41638tj4a.ttf?t=1690750449786') format('truetype');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}

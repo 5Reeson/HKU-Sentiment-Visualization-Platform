@@ -1,0 +1,15 @@
+.post_title {
+    font-weight: bold;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 2vh 1vw;
+    padding: 1vh 0;
+  }
+.detail-row {
+  display: flex;
+  align-items: center; /* 垂直居中 */
+}
+.detail-mark{
+  margin:0 3px;
+}

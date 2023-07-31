@@ -1,0 +1,67 @@
+/* 基本样式 */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  .logo img {
+    width: 50px; /* 自定义宽度 */
+    height: 50px; /* 自定义高度 */
+  }
+  
+  .title {
+    font-size: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  
+  .search-box {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  .search-box input {
+    width: 250px;
+    margin-left: 20px;
+    padding: 8px 10px;
+    border-radius: 15px; /* 圆角 */
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease; /* 过渡效果 */
+  }
+  
+  .search-box input:focus {
+    outline: none;
+    border-color: #888; /* 高亮边框颜色 */
+  }
+  
+  .about a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* 响应式样式 */
+  @media (max-width: 768px) {
+    .logo img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    .search-box {
+      margin: 0 5px;
+    }
+  
+    .search-box input {
+      padding: 4px 8px;
+    }
+  }
+  

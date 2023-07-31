@@ -1,0 +1,25 @@
+.notice-container {
+  display: flex;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  overflow: hidden; /* 确保文字内容超出容器时隐藏，不撑开容器 */
+  font-size: 14px;
+}
+
+.notice-text-container {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollingAnimation 30s linear infinite;
+  animation-play-state: running; /* 确保动画状态是运行的 */
+}
+
+@keyframes scrollingAnimation {
+  0% {
+    transform: translateX(100%); /* 初始位置，文本向左移动 */
+  }
+  100% {
+    transform: translateX(-100%); /* 水平方向向左平移 100% */
+  }
+}
