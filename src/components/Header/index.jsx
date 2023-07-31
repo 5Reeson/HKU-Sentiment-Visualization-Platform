@@ -1,6 +1,6 @@
 import React from 'react';
 import hku_logo from '../../assets/hku_logo.png'
-import './header.css'; // 导入样式文件
+import './Header.css'; // 导入样式文件
 
 const Header = () => {
   return (
