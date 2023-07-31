@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://5reasons.github.io/HKU-Sentiment-Visualization-Platform/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
